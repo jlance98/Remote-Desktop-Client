@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnConnecting = findViewById<Button>(R.id.BtnConnect)
+        val btnConnect = findViewById<Button>(R.id.BtnConnect)
         val btnSend = findViewById<Button>(R.id.BtnSend)
 
-        btnConnecting.setOnClickListener(this)
+        btnConnect.setOnClickListener(this)
         btnSend.setOnClickListener(this)
 
     }
